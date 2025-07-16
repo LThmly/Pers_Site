@@ -1,6 +1,10 @@
+@font-face {
+  font-family: "Neue Hass Grotesk", serif;
+  src: url('../neue-haas-grotesk/NHaasGroteskDSPro-55Rg.otf');
+}
+
 body {
   font-family: "Neue Hass Grotesk", serif;
-  src: url('../neue-haas-grotesk/NHaasGroteskDSPro-55Rg.otf') format('opentype');
   margin: 2rem;
   background-color: #f9f9f9;
   color: #333;
