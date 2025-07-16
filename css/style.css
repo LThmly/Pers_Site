@@ -16,11 +16,6 @@ body {
   
 }
 
-@media (max-width: 300px) {
-  body{
-    font-size: medium;
-  }
-}
 
 header {
   border-bottom: 1px solid #ccc;
