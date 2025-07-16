@@ -16,6 +16,11 @@ body {
   
 }
 
+@media (max-width: 800px) {
+  body{
+    font-size: large;
+  }
+}
 
 header {
   border-bottom: 1px solid #ccc;
