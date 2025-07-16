@@ -1,0 +1,32 @@
+body {
+  font-family: "Neue Hass Grotesk", serif;
+  margin: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
