@@ -5,10 +5,21 @@
 
 body {
   font-family: "Inter", sans-serif;
-  margin: 3rem;
+  margin: 0 auto;
   background-color: #f9f9f9;
   color: #333;
+  max-width: 600px;
+  text-align: left;
+  margin-top: 4rem;
+  font-size: large;
+  padding: 0 1rem;
   
+}
+
+@media (max-width: 300px) {
+  body{
+    font-size: medium;
+  }
 }
 
 header {
