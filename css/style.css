@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 :root {
-    --accent: #4b46e3;
+    --accent: #170e0e;
 }
 
 body {
   font-family: "Inter", sans-serif;
   margin: 0 auto;
-  background-color: #151414;
-  color: #d5d3d3;
+  background-color: #ffffff;
+  color: #060606;
   max-width: 700px;
   text-align: left;
   margin-top: 4rem;
@@ -23,9 +23,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  padding-bottom: 0rem;
 }
 
 nav a {
