@@ -1,62 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-    --accent: #170e0e;
+  --accent: #170e0e;
+  --text-color: #060606;
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  margin: 0 auto;
-  background-color: #ffffff;
-  color: #060606;
-  max-width: 600px;
-  text-align: left;
-  margin-top: 2rem;
-  font-size:18px;
-  padding: 0 1rem;
+  font-family: "Raleway", sans-serif;
+  background-color: #f5ece1;
+  color: var(--text-color);
   
-}
-
-@media (max-width: 800px) {
-  body{
-    font-size: large;
-  }
-}
-
-header {
-  padding-bottom: 0rem;
-}
-
-nav a {
-  margin-right: 1rem;
-  text-decoration: none;
-  color: var(--accent);
-  font-weight:bolder;
-  font-size:large;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
   max-width: 800px;
+  margin: 0 auto;
+  margin-top: 6vh;
+  padding: 0 1.5rem;
+  
+  font-size: 15px;
+  font-weight: 400;
   line-height: 1.2;
 }
 
-ul {
-  list-style:none;
-  padding: 0;
-  line-height: 2;
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: none;
+
+h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.02em;
+}
+
+h4 {
+  font-weight: 600;
+  display: inline-block;
+  margin: 0;
+  margin-right: 0.5rem;
+  color: var(--accent);
 }
 
 a {
   color: var(--accent);
+  text-decoration: underline;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  color:#f34343;
+}
+
+.section {
+  margin-bottom: 1.2rem;
+}
+
+.email {
+  margin-bottom: 0.8;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+li {
+  margin-bottom: 1.25rem;
+}
+
+strong {
+  font-weight: 600;
 }
 
 footer {
-  font-size:x-small;
+  margin-top: 1.2rem;
+  font-size: 0.85rem;
+  opacity: 0.6;
   font-style: italic;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-top: 4rem;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
